@@ -20,6 +20,7 @@ const config = {
     filename: 'omise.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
+    libraryTarget: "umd"
   },
 
   devtool: false,
